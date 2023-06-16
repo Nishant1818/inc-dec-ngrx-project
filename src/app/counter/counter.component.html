@@ -1,0 +1,20 @@
+<p>counter works!</p>
+
+<div style="display: flex; flex-direction: column; margin: 110px 20px;align-items: center; gap: 35px; margin: 10px 20px;  justify-content: center;">
+
+<div>Current Count: {{ count$ | async }}</div>
+
+<div style="display: flex;">
+
+
+    <button mat-raised-button color="primary" (click)="increment()">  <mat-icon>add</mat-icon>
+    </button>
+    <button mat-raised-button color="warn" (click)="decrement()">  <mat-icon>remove</mat-icon>
+    </button>
+    <button mat-stroked-button color="accent" (click)="reset()">
+      <mat-icon>autorenew</mat-icon>
+    </button>
+    
+
+</div>
+</div>

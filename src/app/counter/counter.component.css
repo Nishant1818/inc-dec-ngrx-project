@@ -1,0 +1,15 @@
+button {
+    margin-right: 10px;
+  }
+  
+  button.mat-raised-button:hover,
+  button.mat-stroked-button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  button.mat-raised-button {
+    background-color: #ff0000; 
+  }
+  button.mat-stroked-button {
+    background-color: #00ff00; 
+  }
